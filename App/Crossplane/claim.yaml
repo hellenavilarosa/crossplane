@@ -1,0 +1,8 @@
+apiVersion: database.example.com/v1alpha1
+kind: NoSQLClaim
+metadata:
+  name: dynamodb-bucket-crossplane
+  namespace: default
+spec: 
+  location: "US"
+
