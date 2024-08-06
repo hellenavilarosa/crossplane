@@ -1,0 +1,8 @@
+apiVersion: database.example.com/v1alpha1
+kind: NoSQLClaim
+metadata:
+  name: dynamo-my-nosql-database
+  namespace: default
+spec: 
+  location: "US"
+
