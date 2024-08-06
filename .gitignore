@@ -1,5 +1,5 @@
 # Compiled source
-.DS_Store
+*.DS_Store
 
 # AWS Credentials
 aws-credentials.txt
