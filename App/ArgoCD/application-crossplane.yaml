@@ -11,5 +11,5 @@ spec:
     path: App/Crossplane/
   destination:
     server: https://kubernetes.default.svc
-    namespace: default
+    namespace: crossplane-system
 
