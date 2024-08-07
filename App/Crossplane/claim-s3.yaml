@@ -1,0 +1,13 @@
+apiVersion: s3.aws.upbound.io/v1alpha1
+kind: MyBucket
+metadata:
+  name: my-bucket
+spec:
+  forProvider:
+    bucketName: crossplane-my-bucket-name
+    acl: private
+    versioning:
+      enabled: true
+  providerConfigRef:
+    name: default
+
