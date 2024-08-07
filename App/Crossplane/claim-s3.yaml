@@ -9,5 +9,5 @@ spec:
     versioning:
       enabled: true
   providerConfigRef:
-    name: default
+    name: provider-aws-s3
 
