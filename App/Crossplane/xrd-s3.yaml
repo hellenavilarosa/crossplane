@@ -1,15 +1,15 @@
 apiVersion: apiextensions.crossplane.io/v1
 kind: CompositeResourceDefinition
 metadata:
-  name: xbuckets.s3.aws.upbound.io
+  name: xbuckets.s3.aws.upbound.io  # Corrected name
 spec:
   group: s3.aws.upbound.io
   names:
     kind: XBucket
-    plural: xbuckets
+    plural: xbuckets  # Plural name
   claimNames:
-    kind: Bucket
-    plural: buckets
+    kind: MyBucket
+    plural: mybuckets
   versions:
     - name: v1alpha1
       served: true
