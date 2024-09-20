@@ -13,6 +13,9 @@ spec:
       labels:
         app: inflate
     spec:
+      nodeSelector:
+        # intent: prov-ond
+        karpenter.sh/capacity-type: on-demand
       terminationGracePeriodSeconds: 0
       containers:
         - name: inflate
